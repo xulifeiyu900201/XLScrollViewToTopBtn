@@ -28,14 +28,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view addSubview:self.tableView];
-    // 创建按钮
-    XLToScrollViewTopBtn *btn = [[XLToScrollViewTopBtn alloc] initWithBtnImageName:@"toTopButton" andRect:CGRectMake(300, 600, 50, 50) andScrollToPoint:CGPointMake(0, 0) andShowBtnFloat:300];
-    // 设置要滚动的试图
+    // 第一步:创建按钮
+    XLToScrollViewTopBtn *btn = [XLToScrollViewTopBtn createWithBtnImageName:@"toTopButton" andRect:CGRectMake(300, 600, 50, 50) andScrollToPoint:CGPointMake(0, 0) andShowBtnFloat:300];
+    // 第二部:设置要滚动的试图
     [btn scrollView:self.tableView clickButtonActionHandler:^(UIButton * _Nonnull btn) {
         NSLog(@"按钮被点击了");
     }];
-    // 添加到控制器视图
-    [self.view addSubview:btn];
     
 }
 

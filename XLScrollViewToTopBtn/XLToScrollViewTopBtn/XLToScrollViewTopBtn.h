@@ -11,19 +11,16 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface XLToScrollViewTopBtn : UIButton
-/**
- *  设置按钮的图片名称
- */
-@property (nonatomic, copy) NSString *imageName;
-/**
- *  设置滚动视图偏移量为多少时显示按钮,如果不设置默认为zero点
- */
-@property (nonatomic ,assign) CGFloat showBtnFloat;
 
 /**
- *  设置滚动视图滚动的偏移量坐标,如果不设置默认为zero(滚动到顶部)
+ *  初始化方法
+ *
+ *  @param imageName     设置按钮图片的名字
+ *  @param rect          按钮位置宽高
+ *  @param scrollToPoint 设置滚动视图滚动的偏移量坐标,如果不设置默认为zero(滚动到顶部)
+ *  @param showBtnFloat  设置滚动视图偏移量为多少时显示按钮,如果不设置默认为zero点
  */
-@property (nonatomic ,assign) CGPoint scrollToPoint;
++ (instancetype)createWithBtnImageName:(NSString *)imageName andRect:(CGRect)rect andScrollToPoint:(CGPoint)scrollToPoint andShowBtnFloat:(CGFloat)showBtnFloat;
 
 /**
  *  设置按钮控制scrollerView视图的滚动方法
@@ -32,15 +29,6 @@ NS_ASSUME_NONNULL_BEGIN
  *  @param touchHandler 点击按钮的block回调
  */
 - (void)scrollView:(UIScrollView *__unsafe_unretained)scrollView clickButtonActionHandler:(nullable void(^)(UIButton *btn))touchHandler;
-/**
- *  初始化方法
- *
- *  @param imageName     设置按钮图片的名字
- *  @param rect          按钮位置宽高
- *  @param scrollToPoint 设置滚动视图滚动的偏移量坐标
- *  @param showBtnFloat  设置滚动视图偏移量为多少时显示按钮
- */
-- (instancetype)initWithBtnImageName:(NSString *)imageName andRect:(CGRect)rect andScrollToPoint:(CGPoint)scrollToPoint andShowBtnFloat:(CGFloat)showBtnFloat;
 
 NS_ASSUME_NONNULL_END
 
