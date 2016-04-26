@@ -18,7 +18,7 @@ XLScrollViewToTopBtn
 * UIScrollView、UITableView、UICollectionView、UIWebView
 
 ###提醒
-本功能纯ARC，兼容的系统>=iOS6.0、iPhone\iPad横竖屏
+* 本功能纯ARC，兼容的系统>=iOS6.0、iPhone\iPad横竖屏
 
 ###期待
  * 如果在使用过程中遇到BUG，希望你能Issues我，谢谢(或者尝试下载最新的示例代码看看BUG修复没有)
