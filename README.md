@@ -13,7 +13,7 @@ XLScrollViewToTopBtn
     [btn scrollView:self.tableView clickButtonActionHandler:^(UIButton * _Nonnull btn) {
         NSLog(@"按钮被点击了");
     }];
-![](http://images.cnblogs.com/cnblogs_com/xuli-feiyu900201/821110/o_reproduction.gif)
+![image](http://images.cnblogs.com/cnblogs_com/xuli-feiyu900201/821110/o_reproduction.gif)
 ###支持哪些滚动视图的使用
 * UIScrollView、UITableView、UICollectionView、UIWebView
 
