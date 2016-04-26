@@ -14,11 +14,11 @@ XLScrollViewToTopBtn
         NSLog(@"按钮被点击了");
     }];
 ###支持哪些滚动视图的使用
-*UIScrollView、UITableView、UICollectionView、UIWebView
+* UIScrollView、UITableView、UICollectionView、UIWebView
 ###提醒
 本功能纯ARC，兼容的系统>=iOS6.0、iPhone\iPad横竖屏
 ###期待
- *如果在使用过程中遇到BUG，希望你能Issues我，谢谢(或者尝试下载最新的示例代码看看BUG修复没有)
- *如果在使用过程中发现功能不够用，希望你能Issues我，我非常想为这个框架增加更多好用的功能，谢谢
- *如果你想为作者输出代码，请拼命Pull Requests我,不甚感激
+ * 如果在使用过程中遇到BUG，希望你能Issues我，谢谢(或者尝试下载最新的示例代码看看BUG修复没有)
+ * 如果在使用过程中发现功能不够用，希望你能Issues我，我非常想为这个框架增加更多好用的功能，谢谢
+ * 如果你想为作者输出代码，请拼命Pull Requests我,不甚感激
  
