@@ -30,7 +30,7 @@
     [self.view addSubview:self.tableView];
     // 第一步:创建按钮
     XLToScrollViewTopBtn *btn = [XLToScrollViewTopBtn createWithBtnImageName:@"toTopButton" andRect:CGRectMake(300, 600, 50, 50) andScrollToPoint:CGPointMake(0, 0) andShowBtnFloat:300];
-    // 第二部:设置要滚动的试图
+    // 第二部:设置要滚动的视图
     [btn scrollView:self.tableView clickButtonActionHandler:^(UIButton * _Nonnull btn) {
         NSLog(@"按钮被点击了");
     }];
