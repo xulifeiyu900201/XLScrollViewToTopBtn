@@ -39,7 +39,7 @@ XLScrollViewToTopBtn
     }];
 ![image](http://images.cnblogs.com/cnblogs_com/xuli-feiyu900201/821110/o_Untitled.gif)
 ![image](http://images.cnblogs.com/cnblogs_com/xuli-feiyu900201/821110/o_Untitled2.gif)
-![image](http://images.cnblogs.com/cnblogs_com/xuli-feiyu900201/821110/o_Snip20160427_1.png)
+![image](http://images.cnblogs.com/cnblogs_com/xuli-feiyu900201/821110/o_Snip20160427_2.png)
 
 ###版本升级只需要两次简单的设置就可以完美添加按钮并且设置约束,请看注意事项
     /*
