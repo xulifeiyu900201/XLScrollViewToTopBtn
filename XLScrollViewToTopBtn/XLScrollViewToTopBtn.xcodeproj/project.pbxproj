@@ -17,6 +17,8 @@
 		4FD98A5B1CCCE9A200888D38 /* XLScrollViewToTopBtnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD98A5A1CCCE9A200888D38 /* XLScrollViewToTopBtnUITests.m */; };
 		4FD98A6B1CCCEA4900888D38 /* XLToScrollViewTopBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD98A6A1CCCEA4900888D38 /* XLToScrollViewTopBtn.m */; };
 		4FD98A6D1CCCF3AC00888D38 /* toTopButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FD98A6C1CCCF3AC00888D38 /* toTopButton.png */; };
+		4FE3BE061CD0961A0031119F /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE3BE051CD0961A0031119F /* TwoViewController.m */; };
+		4FE3BE0F1CD0D4480031119F /* SelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE3BE0E1CD0D4480031119F /* SelfViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		4FD98A691CCCEA4900888D38 /* XLToScrollViewTopBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLToScrollViewTopBtn.h; sourceTree = "<group>"; };
 		4FD98A6A1CCCEA4900888D38 /* XLToScrollViewTopBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLToScrollViewTopBtn.m; sourceTree = "<group>"; };
 		4FD98A6C1CCCF3AC00888D38 /* toTopButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toTopButton.png; sourceTree = "<group>"; };
+		4FE3BE041CD0961A0031119F /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		4FE3BE051CD0961A0031119F /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		4FE3BE0D1CD0D4480031119F /* SelfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfViewController.h; sourceTree = "<group>"; };
+		4FE3BE0E1CD0D4480031119F /* SelfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,8 @@
 				4FD98A391CCCE9A200888D38 /* AppDelegate.m */,
 				4FD98A3B1CCCE9A200888D38 /* ViewController.h */,
 				4FD98A3C1CCCE9A200888D38 /* ViewController.m */,
+				4FE3BE041CD0961A0031119F /* TwoViewController.h */,
+				4FE3BE051CD0961A0031119F /* TwoViewController.m */,
 				4FD98A3E1CCCE9A200888D38 /* Main.storyboard */,
 				4FD98A411CCCE9A200888D38 /* Assets.xcassets */,
 				4FD98A431CCCE9A200888D38 /* LaunchScreen.storyboard */,
@@ -152,6 +160,8 @@
 			children = (
 				4FD98A691CCCEA4900888D38 /* XLToScrollViewTopBtn.h */,
 				4FD98A6A1CCCEA4900888D38 /* XLToScrollViewTopBtn.m */,
+				4FE3BE0D1CD0D4480031119F /* SelfViewController.h */,
+				4FE3BE0E1CD0D4480031119F /* SelfViewController.m */,
 			);
 			path = XLToScrollViewTopBtn;
 			sourceTree = SOURCE_ROOT;
@@ -289,7 +299,9 @@
 			files = (
 				4FD98A3D1CCCE9A200888D38 /* ViewController.m in Sources */,
 				4FD98A6B1CCCEA4900888D38 /* XLToScrollViewTopBtn.m in Sources */,
+				4FE3BE0F1CD0D4480031119F /* SelfViewController.m in Sources */,
 				4FD98A3A1CCCE9A200888D38 /* AppDelegate.m in Sources */,
+				4FE3BE061CD0961A0031119F /* TwoViewController.m in Sources */,
 				4FD98A371CCCE9A200888D38 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
